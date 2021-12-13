@@ -36,16 +36,29 @@ a {
      color: white;
      font-size: 19px;
      margin: 30px;
-     
  }
- @media only screen and (max-width: 1024px) {
-    body, .img 
+.imgs {
+    margin-top: 100px;
+}
+.small-circles .circle-item{
+    opacity: 1;
+    background-color:white;
+}
+.small-circles span {
+    width: 10px;
+    height: 10px;
+    display: block;
+    border-radius: 10px;
+    margin: 5px;
+    background-color: white;
+    float: left;
+}
+
+ @media only screen and (max-width: 480px) {
+    body, .img. .conteine, .header,
     }
   }
-
-  @media only screen and (max-width:480px) {
-    .img {
-     
-    
+  @media only screen and (max-width: 1024px) {
+    body, .img. .conteine, .header,
     }
   }
